@@ -1,5 +1,7 @@
 # QNAP 301w 免拆刷机方法
 
+### 特别感谢 [@coolsnowwolf](https://github.com/coolsnowwolf) [@asushugo](https://github.com/asushugo) 等一众牛B的开发者适配301w路由器
+
 ## 1. 开启SSH服务
 
 在开启路由器可以正常进系统的状态下，长按路由器后的 WPS 键，直到听到第二声“嘟”松开（大约 12 秒）就 OK。
