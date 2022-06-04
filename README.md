@@ -26,7 +26,7 @@ ssh命令就是 `ssh admin@192.168.100.1 -p 22200`（ 如果端口没开重复�
 
 ---
 
-### 三. 将分区切换到第二分区
+### 三. 将启动分区切换到第二分区
 
 `sudo fw_setenv current_entry 1` **提示要输入的密码就是刚刚你登录 ssh 的密码，以下不再赘述**
 
@@ -61,7 +61,7 @@ sudo reboot
 
 ![putty](pic/flash_qsdk.jpg)
 
-然后重启即可，注意由于没有刷10G PHY的firmware目前10G口没有办法使用的
+执行完上述命令之后即可刷入QSDK并从第一分区启动QSDK，注意由于没有刷10G PHY的firmware目前10G口没有办法使用的
 
 ---
 
