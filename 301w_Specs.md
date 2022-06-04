@@ -1,4 +1,4 @@
-# QNAP QHora-301W产品介绍
+# QNAP QHora-301W 产品介绍
 
 ## 硬件参数
 - CPU: Qualcomm IPQ8072A Quad core Cortex-A53 2.2GHz
