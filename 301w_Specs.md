@@ -61,3 +61,6 @@ Part	Start LBA	End LBA		Name
 ![正面照](pic/front.png)
 
 ![背面照](pic/back.png)
+
+![TTL接线图（接中间3根，从左到右分别是TX-GND-RX，参数设置115200, 8N1, 3.3 V）](pic/ttl_pins.jpg)
+
