@@ -4,6 +4,8 @@
 
 在开启路由器可以正常进系统的状态下，长按路由器后的 WPS 键，直到听到第二声“嘟”松开（大约 12 秒）就 OK。
 
+---
+
 ## 2. SSH连接路由器后台
 
 这里需要注意一点
@@ -18,11 +20,15 @@
 
 ![putty](pic/putty.jpg)
 
+---
+
 ## 3. 将分区切换到第二分区
 
 `sudo fw_setenv current_entry 1` 提示要输入的密码就是刚刚你登录 ssh 的密码
 
 `reboot`  重启
+
+---
 
 ## 4. 检查路由器当前启动分区
 
@@ -30,7 +36,11 @@
 
 查看分区，确保这里会输出 1，如果不是，重复部署3。
 
+---
+
 ## 5. 使用 Winscp 上传QSDK的 kernel.bin 和 rootfs.bin 到 /tmp （！别问我固件从哪儿拿）
+
+---
 
 ## 6. 将QSDK到刷入第一分区
 
@@ -46,6 +56,8 @@ sudo reboot
 ![putty](pic/flash_qsdk.jpg)
 
 然后重启即可，注意由于没有刷10G PHY的firmware当前10G口没有启动
+
+---
 
 ## 7. 301w刷入 10G PHY 的 firmware 方法
 
