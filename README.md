@@ -1,6 +1,8 @@
 # QNAP 301w 免拆刷机方法
 
-### 特别感谢 [@coolsnowwolf](https://github.com/coolsnowwolf) [@asushugo](https://github.com/asushugo) 等一众牛B的开发者适配301w路由器
+#### 特别感谢 [@coolsnowwolf](https://github.com/coolsnowwolf) [@asushugo](https://github.com/asushugo) 等一众牛B的开发者适配301w路由器
+
+#### [QHora-301W 产品介绍](./301w_Specs.md)
 
 ### 一. 开启SSH服务
 
