@@ -56,11 +56,7 @@ Part	Start LBA	End LBA		Name
   9	0x00322022	0x0073d821	"rootfs_data" attrs:	0x0000000000000000  type:	ab1760da-a8bb-4d6f-98d2-9ad3ab9009cd  guid:	d1402149-3e8e-0709-99d9-170bfab2f66c
 ```
 
-## 产品图示
-
-![正面照](pic/front.png)
-
-![背面照](pic/back.png)
+## TTL接线图
 
 接中间3根，从左到右分别是TX-GND-RX，参数设置115200, 8N1, 3.3 V
 
