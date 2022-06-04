@@ -44,6 +44,8 @@
 
 ## 6. 将QSDK到刷入第一分区
 
+*注意：强烈建议使用dd命令（方法自行搜索引擎）备份一些重要的分区例如mtd闪存分区以及mmc闪存分区，以便以后可以恢复官方固件*
+
 ```sh
 sudo dd if=/tmp/kernel.bin of=/dev/mmcblk0p1
 sudo dd if=/tmp/rootfs.bin of=/dev/mmcblk0p4
