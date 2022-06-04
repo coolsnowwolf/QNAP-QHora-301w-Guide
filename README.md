@@ -26,7 +26,7 @@
 
 `sudo fw_setenv current_entry 1` 提示要输入的密码就是刚刚你登录 ssh 的密码
 
-`reboot`  重启
+`sudo reboot`  重启
 
 ---
 
