@@ -61,7 +61,7 @@ sudo reboot
 
 ![putty](pic/flash_qsdk.jpg)
 
-然后重启即可，注意由于没有刷10G PHY的firmware当前10G口没有启动
+然后重启即可，注意由于没有刷10G PHY的firmware目前10G口没有办法使用的
 
 ---
 
