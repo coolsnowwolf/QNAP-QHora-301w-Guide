@@ -30,7 +30,7 @@
 
 查看分区，确保这里会输出 1，如果不是，重复部署3。
 
-## 5. 使用 Winscp 上传 kernel.bin 和 rootfs.bin 到 /tmp
+## 5. 使用 Winscp 上传QSDK的 kernel.bin 和 rootfs.bin 到 /tmp （别问我固件从哪儿拿）
 
 ## 6. 将QSDK到刷入第一分区
 
