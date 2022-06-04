@@ -2,13 +2,13 @@
 
 ### 特别感谢 [@coolsnowwolf](https://github.com/coolsnowwolf) [@asushugo](https://github.com/asushugo) 等一众牛B的开发者适配301w路由器
 
-### 1. 开启SSH服务
+### 一. 开启SSH服务
 
 在开启路由器可以正常进系统的状态下，长按路由器后的 WPS 键，直到听到第二声“嘟”松开（大约 12 秒）就 OK。
 
 ---
 
-### 2. SSH连接路由器后台
+### 二. SSH连接路由器后台
 
 这里需要注意一点
 
@@ -24,7 +24,7 @@ ssh命令就是 `ssh admin@192.168.100.1 -p 22200`（ 如果端口没开重复�
 
 ---
 
-### 3. 将分区切换到第二分区
+### 三. 将分区切换到第二分区
 
 `sudo fw_setenv current_entry 1` 提示要输入的密码就是刚刚你登录 ssh 的密码，以下不再赘述
 
@@ -32,7 +32,7 @@ ssh命令就是 `ssh admin@192.168.100.1 -p 22200`（ 如果端口没开重复�
 
 ---
 
-### 4. 检查路由器当前启动分区
+### 四. 检查路由器当前启动分区
 
 `sudo fw_printenv -n current_entry`
 
@@ -40,11 +40,11 @@ ssh命令就是 `ssh admin@192.168.100.1 -p 22200`（ 如果端口没开重复�
 
 ---
 
-### 5. 使用 Winscp 上传QSDK的 kernel.bin 和 rootfs.bin 到 /tmp （！别问我固件从哪儿拿）
+### 五. 使用 Winscp 上传QSDK的 kernel.bin 和 rootfs.bin 到 /tmp （！别问我固件从哪儿拿）
 
 ---
 
-### 6. 将QSDK到刷入第一分区
+### 六. 将QSDK到刷入第一分区
 
 *注意：强烈建议使用dd命令（方法自行搜索引擎）备份一些重要的分区例如mtd闪存分区以及mmc闪存分区，以便以后可以恢复官方固件*
 
@@ -63,7 +63,7 @@ sudo reboot
 
 ---
 
-### 7. 301w刷入 10G PHY 的 firmware 方法
+### 七. 301w刷入 10G PHY 的 firmware 方法
 
 1. 将AQR_ethphyfw_5.6.7.mbn用scp命令或者winscp工具传输到QSDK的/tmp目录下
 2. 使用putty或其他ssh工具进路由器后台，抹除原ethfw分区 mtd10的数据：`mtd erase /dev/mtd10`
