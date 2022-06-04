@@ -3,7 +3,7 @@
 ## [官方介绍](https://www.qnap.com/zh-cn/product/qhora-301w)
 
 ## 硬件参数
-- CPU: Qualcomm IPQ8072A Quad core Cortex-A53 2.2GHz
+- CPU: 高通 IPQ8072A 四核 Cortex-A53 2.2GHz [IPQ8072A SOC介绍](pic/IPQ8072A.jpg)
 - 内存: 1024MB of DDR3
 - 闪存: 4GB eMMC (包含固件操作系统分区kernel和rootfs等) 和 8MB NOR (包含uboot等启动引导分区)
 - 有线网络: 4个1G RJ45 接口（PHY芯片：QCA8075） + 2个10G 接口 （PHY芯片：Aquantia AQR113C）
