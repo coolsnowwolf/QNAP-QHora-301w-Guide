@@ -69,7 +69,7 @@ sudo reboot
 
 1. 将AQR_ethphyfw_5.6.7.mbn用scp命令或者winscp工具传输到QSDK的/tmp目录下
 2. 使用putty或其他ssh工具进路由器后台，抹除原ethfw分区 mtd10的数据：`mtd erase /dev/mtd10`
-3. 刷入fw文件：`mtd -n write /tmp/AQR_ethphyfw_5.5.6.mbn /dev/mtd10`
+3. 刷入fw文件：`mtd -n write /tmp/AQR_ethphyfw_5.6.7.mbn /dev/mtd10`
 4. 修改bootcmd环境变量：`fw_setenv bootcmd "aq_load_fw 0; aq_load_fw 8; bootipq"`
 5. `fw_printenv` 看下是否有这条记录 bootcmd=aq_load_fw 0; aq_load_fw 8; bootipq ，如果有就没问题。
 6. 重启
