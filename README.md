@@ -61,7 +61,7 @@ sudo reboot
 
 ![putty](pic/flash_qsdk.jpg)
 
-执行完上述命令之后即可刷入QSDK并从第一分区启动QSDK，注意由于没有刷10G PHY的firmware目前10G口没有办法使用的
+执行完上述命令之后即可刷入QSDK并从第一分区启动QSDK，注意由于目前还没有刷10G PHY的firmware，需刷入firmware。
 
 ---
 
