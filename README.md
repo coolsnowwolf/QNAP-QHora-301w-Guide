@@ -2,7 +2,7 @@
 
 #### 特别感谢 [@coolsnowwolf](https://github.com/coolsnowwolf) [@asushugo](https://github.com/asushugo) 等一众牛B的开发者适配301w路由器！
 
-#### [QNAP QHora-301W 产品介绍](./301w_Specs.md)
+#### [QNAP QHora-301W 产品介绍](./301w_Specs.md) **当前促销：https://www.materiel.net/produit/202011090007.html?offerId=AR202011090007**
 
 ### 一. 开启SSH服务
 
